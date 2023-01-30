@@ -23,10 +23,14 @@ export default function Home() {
                 </p>
                 <br />
                 <div className="mb-2 buttons">
-                  <Button variant="primary" size="lg">
+                  <Button variant="primary" size="lg" className="btn-lg">
                     Get in touch <i className="bi bi-arrow-up-right-circle"></i>
                   </Button>{" "}
-                  <Button variant="outline-primary" size="lg">
+                  <Button
+                    variant="outline-primary"
+                    size="lg"
+                    className="btn-lg"
+                  >
                     Download Profile <i class="bi bi-arrow-down-circle"></i>
                   </Button>
                 </div>
