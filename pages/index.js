@@ -34,7 +34,7 @@ export default function Home() {
             </Col>
             <Col>
               <Image
-                src={"/../public/images/darl-img.png"}
+                src={"/images/darl-img.png"}
                 width={200}
                 height={400}
                 className={styles.bannerimg}

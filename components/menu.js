@@ -13,7 +13,7 @@ function ColorSchemesExample() {
         <Container>
           <Navbar.Brand href="#home">
             <Image
-              src="/../public/images/logo2.png"
+              src="/images/logo2.png"
               width="120"
               height="58"
               className="d-inline-block align-top"
