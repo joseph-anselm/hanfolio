@@ -22,7 +22,7 @@ export default function Home() {
                   <br /> and Climate Advocate
                 </p>
                 <br />
-                <div className="mb-2">
+                <div className="mb-2 buttons">
                   <Button variant="primary" size="lg">
                     Get in touch <i className="bi bi-arrow-up-right-circle"></i>
                   </Button>{" "}

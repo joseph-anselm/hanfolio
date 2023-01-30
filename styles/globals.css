@@ -119,3 +119,13 @@ a {
     text-align: center;
   }
 }
+
+@media (max-width: 1200px) {
+  .buttons {
+    display: flex;
+  }
+  .buttons .btn {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+}
