@@ -47,11 +47,9 @@ function ColorSchemesExample() {
                 <i className="bi bi-facebook"></i>
                 <i className="bi bi-linkedin"></i>
                 <i className="bi bi-youtube"></i>
-              </Nav.Link>
-              <FontAwesomeIcon icon={"user-secret"} />
-              <Nav.Link eventKey={2} href="#memes">
                 <i className="bi bi-share"></i>
               </Nav.Link>
+              <Nav.Link eventKey={2} href="#memes"></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
