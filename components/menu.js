@@ -9,8 +9,15 @@ import styles from "../styles/Home.module.css";
 function ColorSchemesExample() {
   return (
     <>
-      <Container>
-        <Navbar collapseOnSelect scroling dark expand="lg" fixed="top">
+      <Container className={styles.menutop}>
+        <Navbar
+          collapseOnSelect
+          scroling
+          dark
+          expand="lg"
+          fixed="top"
+          className="navbar"
+        >
           <Container>
             <Navbar.Brand href="#home">
               <Image

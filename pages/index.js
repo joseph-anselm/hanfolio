@@ -47,7 +47,43 @@ export default function Home() {
           </Row>
         </Container>
       </header>
-      <section className={styles.section1}></section>
+      <section className={styles.section1}>
+        <Container>
+          <Row className="pt-5">
+            <Col>
+              <div className="text-center d-grid">
+                <i class="bi bi-award-fill"></i>
+                <h3>02</h3>
+
+                <h3>Awards</h3>
+              </div>
+            </Col>
+            <Col>
+              <div className="text-center d-grid">
+                <i class="bi bi-award-fill"></i>
+                <h3>50+</h3>
+
+                <h3>Published Papers</h3>
+              </div>
+            </Col>
+            <Col>
+              <div className="text-center d-grid">
+                <i class="bi bi-award-fill"></i>
+                <h3>10+</h3>
+                <h3>Experience</h3>
+              </div>
+            </Col>
+            <Col>
+              <div className="text-center d-grid">
+                <i class="bi bi-award-fill"></i>
+                <h3>100+</h3>
+
+                <h3>Projects</h3>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </>
   );
 }
