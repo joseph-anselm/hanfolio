@@ -50,7 +50,7 @@ export default function Home() {
       <section className={styles.section1}>
         <Container>
           <Row className="pt-5">
-            <Col>
+            <Col className="col-lg-3 col-md-6 col-12">
               <div className="text-center d-grid">
                 <i class="bi bi-award-fill"></i>
                 <h3>02</h3>

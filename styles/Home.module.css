@@ -11,7 +11,7 @@
   overflow: hidden;
 }
 .bannerimg {
-  height: auto;
+  height: 100vh;
   width: auto;
   object-fit: contain;
   position: relative;
