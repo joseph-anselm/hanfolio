@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { FaCode, FaLaptop, FaPencilAlt, FaCloud } from "react-icons/fa";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -47,7 +48,7 @@ export default function Home() {
           </Row>
         </Container>
       </header>
-      <section className={styles.section1}>
+      {/* <section className={styles.section1}>
         <Container>
           <Row className="pt-5">
             <Col className="col-lg-3 col-md-6 col-12">
@@ -80,6 +81,117 @@ export default function Home() {
 
                 <h3>Projects</h3>
               </div>
+            </Col>
+          </Row>
+        </Container>
+      </section> */}
+
+      <section className="p-5 section1">
+        <Container>
+          <Row className="text-center">
+            <Col md={3} sm={6} className="mb-3">
+              <i className="bi bi-award"></i>
+              <h3>
+                02 <br />
+                Awards
+              </h3>
+            </Col>
+            <Col md={3} sm={6} className="mb-3">
+              <i className="bi bi-book"></i>
+              <h3>
+                50+ <br /> Papers
+              </h3>
+            </Col>
+            <Col md={3} sm={6} className="mb-3">
+              <i className="bi bi-award-fill"></i>
+              <h3>
+                10+ <br /> Experience
+              </h3>
+            </Col>
+            <Col md={3} sm={6} className="mb-3">
+              <i className="bi bi-award-fill"></i>
+              <h3>
+                100+
+                <br /> Research
+              </h3>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section className={styles.section3}>
+        <Container>
+          <Row>
+            <Col>
+              <img
+                src="/images/darl-img2.png"
+                alt="about me"
+                className="img-fluid mx-auto d-block"
+              />
+            </Col>
+            <Col className={styles.secondcol}>
+              <h5>ABOUT ME</h5>
+              <h2>
+                Hi, I can help with your <br />
+                Next project.{" "}
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                suscipit est vel nibh aliquam, a ullamcorper tortor interdum.
+              </p>
+              <p>
+                Curabitur euismod lacus ut leo molestie, sit amet sagittis nunc
+                convallis. Aliquam ut eros eget quam tincidunt bibendum.
+              </p>
+              <button className="btn btn-primary mb-5" variant="primary">
+                Learn More
+              </button>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section className="py-5">
+        <Container>
+          <Row className="mt-5">
+            <Col>
+              <h3>My Skills</h3>
+              <h1 className="text-left py-4">My Skills and Expertise</h1>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={3}>
+              <FaCode size={50} color="#007bff" />
+              <h3>Business proposal</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                suscipit est vel nibh aliquam, a ullamcorper tortor interdum.
+              </p>
+            </Col>
+            <Col md={3}>
+              <FaLaptop size={50} color="#007bff" />
+              <h3>Brand Set Up</h3>
+              <p>
+                Curabitur euismod lacus ut leo molestie, sit amet sagittis nunc
+                convallis. Aliquam ut eros eget quam tincidunt bibendum.
+              </p>
+            </Col>
+            <Col md={3}>
+              <FaPencilAlt size={50} color="#007bff" />
+              <h3>Research</h3>
+              <p>
+                Integer suscipit est vel nibh aliquam, a ullamcorper tortor
+                interdum. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+              </p>
+            </Col>
+            <Col md={3}>
+              <FaCloud size={50} color="#007bff" />
+              <h3>Data Analysis</h3>
+              <p>
+                Aliquam ut eros eget quam tincidunt bibendum. Curabitur euismod
+                lacus ut leo molestie, sit amet sagittis nunc convallis.
+              </p>
             </Col>
           </Row>
         </Container>

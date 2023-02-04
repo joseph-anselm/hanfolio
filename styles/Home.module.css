@@ -1,6 +1,6 @@
 .header {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   position: relative;
   padding-top: 100px;
   margin: 0 auto;
@@ -11,7 +11,7 @@
   overflow: hidden;
 }
 .bannerimg {
-  height: 100vh;
+  height: 100%;
   width: auto;
   object-fit: contain;
   position: relative;
@@ -26,11 +26,30 @@
   display: grid;
   justify-content: center;
   align-content: center;
-  padding-bottom: 50px;
+  padding: 50px 0;
 }
 .bannercta span {
   color: #0d6efd;
 }
 .section1 {
   width: 100%;
+}
+.section3 {
+  padding: 3rem 0 0 0;
+  background-color: #e1effa;
+}
+.section3 img {
+  max-height: 400px;
+  height: 100%;
+  display: grid;
+  height: 100%;
+  justify-content: end;
+  align-content: center;
+}
+.secondcol {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-self: end;
 }
