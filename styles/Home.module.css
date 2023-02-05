@@ -42,14 +42,8 @@
   max-height: 400px;
   height: 100%;
   display: grid;
-  height: 100%;
-  justify-content: end;
-  align-content: center;
+  text-align: left;
 }
 .secondcol {
-  display: grid;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-self: end;
+  align-self: center;
 }

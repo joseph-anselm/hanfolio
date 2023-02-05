@@ -39,7 +39,7 @@ export default function Home() {
             </Col>
             <Col>
               <Image
-                src={"/images/darl-img.png"}
+                src={"/images/darl-img3.png"}
                 width={200}
                 height={400}
                 className={styles.bannerimg}
@@ -103,13 +103,13 @@ export default function Home() {
               </h3>
             </Col>
             <Col md={3} sm={6} className="mb-3">
-              <i className="bi bi-award-fill"></i>
+              <i className="bi bi-briefcase"></i>
               <h3>
                 10+ <br /> Experience
               </h3>
             </Col>
             <Col md={3} sm={6} className="mb-3">
-              <i className="bi bi-award-fill"></i>
+              <i className="bi bi-person-fill-gear"></i>
               <h3>
                 100+
                 <br /> Research
@@ -122,14 +122,14 @@ export default function Home() {
       <section className={styles.section3}>
         <Container>
           <Row>
-            <Col md={6} sm={12}>
+            <Col sm={6} xs={12}>
               <img
-                src="/images/darl-img2.png"
+                src="/images/darl-img4.png"
                 alt="about me"
-                className="img-fluid mx-auto d-block"
+                className="img-fluid mr-auto d-block"
               />
             </Col>
-            <Col md={6} sm={12} className={styles.secondcol}>
+            <Col sm={6} xs={12} className={styles.secondcol}>
               <h5>ABOUT ME</h5>
               <h2>
                 Hi, I can help with your <br />

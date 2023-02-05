@@ -154,6 +154,7 @@ html:not([data-scroll="0"]) .navbar {
   align-self: center;
   border-radius: 10px;
 }
+
 /* media queries */
 
 @media (max-width: 992px) {
