@@ -24,14 +24,14 @@ const Footer = () => (
     </footer>
 
     <section className={styles.finalfooter}>
-      <Container className="row">
+      <Container>
         <Row className="col text-center d-flex justify-content-center">
-          <Col sm={6} xs={12}>
+          <Col md={6} sm={12} xs={12}>
             <p className="text-muted d-block">
               &copy; {new Date().getFullYear()} Copyright: Oluwaseun Anselm
             </p>
           </Col>
-          <Col sm={6} xs={12}>
+          <Col md={6} sm={12} xs={12}>
             <ul className="list-inline">
               <li className="list-inline-item">
                 <a href="#">Privacy</a>

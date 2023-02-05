@@ -59,7 +59,7 @@ function ColorSchemesExample() {
       <Container className={styles.menutop}>
         <Navbar
           collapseOnSelect
-          scroling
+          scrolling
           dark
           expand="lg"
           fixed="top"
