@@ -3,13 +3,7 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import {
-  FaUsd,
-  FaLaptop,
-  FaPencilAlt,
-  FaCloud,
-  FaUserEdit,
-} from "react-icons/fa";
+import { FaLaptop, FaPencilAlt, FaCloud, FaUserEdit } from "react-icons/fa";
 
 const inter = Inter({ subsets: ["latin"] });
 
