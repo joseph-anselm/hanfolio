@@ -45,6 +45,9 @@
 .secondcol {
   align-self: center;
 }
+.secondcol div {
+  padding: 0;
+}
 
 /* Media queries */
 

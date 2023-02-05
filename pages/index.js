@@ -130,22 +130,25 @@ export default function Home() {
               />
             </Col>
             <Col sm={6} xs={12} className={styles.secondcol}>
-              <h5>ABOUT ME</h5>
-              <h2>
-                Hi, I can help with your <br />
-                Next project.{" "}
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                suscipit est vel nibh aliquam, a ullamcorper tortor interdum.
-              </p>
-              <p>
-                Curabitur euismod lacus ut leo molestie, sit amet sagittis nunc
-                convallis. Aliquam ut eros eget quam tincidunt bibendum.
-              </p>
-              <button className="btn btn-primary mb-5" variant="primary">
-                Learn More
-              </button>
+              <div>
+                <h5>ABOUT ME</h5>
+                <h2>
+                  Hi, I can help with your <br />
+                  Next project.{" "}
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer suscipit est vel nibh aliquam, a ullamcorper tortor
+                  interdum.
+                </p>
+                <p>
+                  Curabitur euismod lacus ut leo molestie, sit amet sagittis
+                  nunc convallis. Aliquam ut eros eget quam tincidunt bibendum.
+                </p>
+                <button className="btn btn-primary mb-5" variant="primary">
+                  Learn More
+                </button>
+              </div>
             </Col>
           </Row>
         </Container>

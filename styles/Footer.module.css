@@ -1,0 +1,28 @@
+.finalfooter {
+  background-color: rgb(95, 94, 94);
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.finalfooter p {
+  color: #fff !important;
+  padding: 10px 0;
+  width: 100%;
+  margin: 0 auto;
+}
+.finalfooter ul {
+  color: #000 !important;
+  padding: 10px 0;
+  width: 100%;
+  margin: 0 auto;
+}
+.finalfooter a {
+  color: #2f3a91;
+  text-decoration: none;
+}
+.footer {
+  background: #2f3a91;
+  color: #fff;
+  padding: 50px 0;
+}

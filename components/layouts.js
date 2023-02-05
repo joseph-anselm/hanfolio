@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import Menu from "./menu";
 import Head from "next/head";
+import Footer from "./footer";
 export default function RootLayout({ children }) {
   return (
     <>
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       </Head>
       <Menu />
       {children}
+      <Footer />
     </>
   );
 }
