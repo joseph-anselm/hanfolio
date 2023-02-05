@@ -186,7 +186,7 @@ export default function Home() {
               <FaPencilAlt size={50} color="#007bff" />
               <h3>Research</h3>
               <p>
-                Whether it's market / academic research, customer surveys or
+                Whether it is market / academic research, customer surveys or
                 data analysis, I am confident in my ability to deliver accurate
                 and actionable results that drive business success.
               </p>
