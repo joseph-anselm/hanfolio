@@ -3,7 +3,13 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { FaCode, FaLaptop, FaPencilAlt, FaCloud } from "react-icons/fa";
+import {
+  FaUsd,
+  FaLaptop,
+  FaPencilAlt,
+  FaCloud,
+  FaUserEdit,
+} from "react-icons/fa";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -164,36 +170,40 @@ export default function Home() {
           </Row>
           <Row>
             <Col md={3}>
-              <FaCode size={50} color="#007bff" />
+              <FaUserEdit size={50} color="#007bff" />
               <h3>Business proposal</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                suscipit est vel nibh aliquam, a ullamcorper tortor interdum.
+                I have extensive experience creating winning business proposals
+                for individual and corporate clients across a variety of
+                industries. With a strong understanding of the sales process.
               </p>
             </Col>
             <Col md={3}>
               <FaLaptop size={50} color="#007bff" />
               <h3>Brand Set Up</h3>
               <p>
-                Curabitur euismod lacus ut leo molestie, sit amet sagittis nunc
-                convallis. Aliquam ut eros eget quam tincidunt bibendum.
+                My skills in market research and brand strategy enable me to
+                develop and implement effective branding campaigns that resonate
+                with target audiences and drive results.
               </p>
             </Col>
             <Col md={3}>
               <FaPencilAlt size={50} color="#007bff" />
               <h3>Research</h3>
               <p>
-                Integer suscipit est vel nibh aliquam, a ullamcorper tortor
-                interdum. Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit.
+                Whether it's market / academic research, customer surveys or
+                data analysis, I am confident in my ability to deliver accurate
+                and actionable results that drive business success.
               </p>
             </Col>
             <Col md={3}>
               <FaCloud size={50} color="#007bff" />
               <h3>Data Analysis</h3>
               <p>
-                Aliquam ut eros eget quam tincidunt bibendum. Curabitur euismod
-                lacus ut leo molestie, sit amet sagittis nunc convallis.
+                I am a data-driven individual with a strong background in data
+                analysis. I have experience working with large datasets and
+                using various tools and techniques to extract meaningful
+                insights from data.
               </p>
             </Col>
           </Row>
