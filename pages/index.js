@@ -122,14 +122,14 @@ export default function Home() {
       <section className={styles.section3}>
         <Container>
           <Row>
-            <Col>
+            <Col md={6} sm={12}>
               <img
                 src="/images/darl-img2.png"
                 alt="about me"
                 className="img-fluid mx-auto d-block"
               />
             </Col>
-            <Col className={styles.secondcol}>
+            <Col md={6} sm={12} className={styles.secondcol}>
               <h5>ABOUT ME</h5>
               <h2>
                 Hi, I can help with your <br />
