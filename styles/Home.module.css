@@ -49,6 +49,15 @@
   padding: 0;
 }
 
+.corevalues {
+  background: url("../public/images/integrity2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 10px;
+}
+.corevalues .corevhead {
+  color: #fff;
+}
 /* Media queries */
 
 @media (max-width: 768px) {

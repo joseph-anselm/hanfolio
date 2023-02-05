@@ -2,6 +2,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import Menu from "./menu";
 import Head from "next/head";
 import Footer from "./footer";
+import CoreValues from "./corevalues";
+import BlogSection from "./blogsection";
 export default function RootLayout({ children }) {
   return (
     <>
@@ -16,6 +18,8 @@ export default function RootLayout({ children }) {
       </Head>
       <Menu />
       {children}
+      <CoreValues />
+      <BlogSection />
       <Footer />
     </>
   );
