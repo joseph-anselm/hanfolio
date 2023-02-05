@@ -39,11 +39,14 @@
   background-color: #e1effa;
 }
 .section3 img {
-  max-height: 400px;
+  max-height: 500px;
   height: 100%;
-  display: grid;
-  text-align: left;
 }
 .secondcol {
   align-self: center;
+}
+
+/* Media queries */
+
+@media (max-width: 992px) {
 }
