@@ -13,7 +13,7 @@ export default function Home() {
       <header className={styles.header}>
         <Container>
           <Row>
-            <Col>
+            <Col className="order-2 order-md-1">
               <div className={styles.bannercta}>
                 <h1>
                   Hi<span>,</span> <br /> I am <span>Oluwaseun H. Anselm</span>
@@ -37,7 +37,7 @@ export default function Home() {
                 </div>
               </div>
             </Col>
-            <Col>
+            <Col className="order-1 order-md-2">
               <Image
                 src={"/images/darl-img3.png"}
                 width={200}
