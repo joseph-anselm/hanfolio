@@ -43,6 +43,7 @@ export default function Home() {
                 width={200}
                 height={400}
                 className={styles.bannerimg}
+                alt="wifey's image"
               />
             </Col>
           </Row>
