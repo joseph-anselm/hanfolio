@@ -3,7 +3,18 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { FaLaptop, FaPencilAlt, FaCloud, FaUserEdit } from "react-icons/fa";
+import {
+  FaLaptop,
+  FaPencilAlt,
+  FaCloud,
+  FaUserEdit,
+  FaPrescription,
+  FaResearchgate,
+  FaPenNib,
+  FaBullhorn,
+  FaLightbulb,
+  FaDatabase,
+} from "react-icons/fa";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -174,7 +185,7 @@ export default function Home() {
               </p>
             </Col>
             <Col md={3}>
-              <FaLaptop size={50} color="#007bff" />
+              <FaLightbulb size={50} color="#007bff" />
               <h3>Brand Set Up</h3>
               <p>
                 My skills in market research and brand strategy enable me to
@@ -183,7 +194,7 @@ export default function Home() {
               </p>
             </Col>
             <Col md={3}>
-              <FaPencilAlt size={50} color="#007bff" />
+              <FaPenNib size={50} color="#007bff" />
               <h3>Research</h3>
               <p>
                 Whether it is market / academic research, customer surveys or
@@ -192,7 +203,7 @@ export default function Home() {
               </p>
             </Col>
             <Col md={3}>
-              <FaCloud size={50} color="#007bff" />
+              <FaDatabase size={50} color="#007bff" />
               <h3>Data Analysis</h3>
               <p>
                 I am a data-driven individual with a strong background in data
