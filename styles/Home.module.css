@@ -51,5 +51,11 @@
 
 /* Media queries */
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
+  .bannerimg {
+    border-radius: 20em;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 30px 30px -10px #888888;
+    margin: 0 auto;
+  }
 }
