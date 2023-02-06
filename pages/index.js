@@ -98,7 +98,7 @@ export default function Home() {
         </Container>
       </section> */}
 
-      <section className="p-5 section1">
+      <section className="p-3 section1">
         <Container>
           <Row className="text-center">
             <Col md={3} sm={6} className="mb-3">
